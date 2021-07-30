@@ -14,3 +14,9 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return "hello world"
+
+@app.route('/secret')
+def secret():
+    return "hope this works!"
+
+
